@@ -1,0 +1,21 @@
+#N canvas 0 50 450 300 12;
+#X obj 195 189 gemwin;
+#X msg 115 133 create \, 1;
+#X msg 204 134 destroy;
+#X obj 6 42 bng 30 250 50 0 empty empty Start 0 -10 0 10 -4034 -1 -1
+;
+#X obj 51 42 bng 30 250 50 0 empty empty Stop 0 -10 0 10 -258113 -1
+-1;
+#X obj 243 55 inlet;
+#X obj 290 55 inlet;
+#X obj 198 238 outlet;
+#X obj 275 181 cnv 15 100 60 empty empty empty 20 12 0 14 -233017 -66577
+0;
+#X connect 0 0 7 0;
+#X connect 1 0 0 0;
+#X connect 2 0 0 0;
+#X connect 3 0 1 0;
+#X connect 4 0 2 0;
+#X connect 5 0 3 0;
+#X connect 6 0 4 0;
+#X coords 0 -1 1 1 85 80 1 0 0;
