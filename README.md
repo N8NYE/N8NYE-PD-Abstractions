@@ -1,5 +1,5 @@
-# N8NYE-PD-Externals
-Various Pure Data externals
+# N8NYE-PD-Abstractions
+Various Pure Data abstractions, mostly for creating visuals with Gem. 
 
 GemStart - starts Gem instance
 
